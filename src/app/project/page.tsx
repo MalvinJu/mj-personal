@@ -1,5 +1,5 @@
 import projectMovingObjcet from "../img/projectMovingObject.jpg"
-import projectEastco from "../img/projectEastco.jpg"
+import projectEastco from "../img/projectEastCo.jpg"
 import Image from 'next/image'
 
 export default function ProjectPage() {

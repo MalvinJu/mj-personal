@@ -1,7 +1,13 @@
 import projectMovingObjcet from "../img/projectMovingObject.jpg"
 import projectEastco from "../img/projectEastCo.jpg"
 import Image from 'next/image'
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: 'Projects',
+    description: 'Here\'s what i\'m doing in software engineer field',
+};
+  
 export default function ProjectPage() {
     return(
         <section>

@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Image from 'next/image'
 import porto1 from "../img/film/1.jpg"
 import porto2 from "../img/film/2.jpg"
@@ -8,6 +9,11 @@ import porto6 from "../img/film/6.jpg"
 import porto7 from "../img/film/7.jpg"
 import porto8 from "../img/film/8.jpg"
 
+export const metadata: Metadata = {
+    title: '35mm~',
+    description: 'Time to capturing the uncaptured one',
+};
+  
 export default function FilmPage() {
     return(
         <div className="grid grid-cols-2 gap-4 mx-10">

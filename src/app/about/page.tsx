@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'About',
+    description: 'Know my life more',
+};
+
 export default function AboutPage() {
     return (
         <section>

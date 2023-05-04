@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 export default function ProjectPage() {
     return(
         <section>
-            <div className="max-w-2xl px-8 py-4 mx-auto bg-white rounded-xl border-2 dark:bg-gray-800">
-                <Image className="rounded-t-lg" src={projectMovingObjcet} alt="" />
-                <div className="flex items-center justify-between">
+            <div className="max-w-2xl px-6 py-6 mx-auto bg-white rounded-xl border-2 dark:border dark:bg-gray-800 dark:border-gray-600">
+                <Image className="rounded-lg" src={projectMovingObjcet} alt="" />
+                <div className="flex items-center justify-between mt-3">
                     <span className="text-sm font-light text-gray-600 dark:text-gray-400">2018</span> 
                     <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">Python</a>
                 </div> 
@@ -30,9 +30,9 @@ export default function ProjectPage() {
                 </div> 
             </div>
 
-            <div className="max-w-2xl px-8 py-4 mx-auto  mt-5 bg-white rounded-xl border-2 dark:bg-gray-800">
-                <Image className="rounded-t-lg" src={projectEastco} alt="" />
-                <div className="flex items-center justify-between">
+            <div className="max-w-2xl px-6 py-6 mx-auto  mt-5 bg-white rounded-xl border-2 dark:border dark:bg-gray-800 dark:border-gray-600">
+                <Image className="rounded-lg" src={projectEastco} alt="" />
+                <div className="flex items-center justify-between mt-3">
                     <span className="text-sm font-light text-gray-600 dark:text-gray-400">2017</span> 
                     <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">Android</a>
                 </div> 

@@ -47,7 +47,7 @@ export default function RootLayout({
           {children}
         </main>
         <NavBar />
-        <div className="text-[25vmin] bold font-serif font-black fixed bottom-10 -left-10 text-neutral-100 z-[-1]">
+        <div className="text-[25vmin] bold font-serif font-black fixed bottom-10 -left-10 text-neutral-100 dark:text-neutral-950 z-[-1]">
           It's a great day
         </div>
       </body>

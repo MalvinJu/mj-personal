@@ -54,7 +54,8 @@ export default function Home() {
       />
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         With a solid background of 5 years in full-stack web development, I have my expertise in Vue, Angular, .Net, and Node.js, bringing a touch of elegance to every project.
-        I'm passionate in technology, business, design, and incorporation between them.
+        At my current workplace, I am engaged in an IT transformation project where I am involved in the migration from a monolithic architecture to a microservices architecture. 
+        Additionally, I have implemented a generic service-repository pattern and designed a middleware for multi-tenant aarchitecture.
       </p>
       <LinkGroup links={links}/>
     </section>

@@ -14,7 +14,7 @@ export default function ProjectPage() {
             <div className="max-w-2xl px-6 py-6 mx-auto bg-white rounded-xl border-2 dark:border dark:bg-neutral-900 dark:border-gray-600">
                 <div className="flex items-center justify-between mt-3">
                     <span className="text-sm font-light text-gray-600 dark:text-gray-400">2023</span> 
-                    <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">Python</a>
+                    <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">.Net Core</a>
                 </div> 
                 <div className="mt-2">
                     <p>
@@ -30,14 +30,18 @@ export default function ProjectPage() {
             <div className="max-w-2xl px-6 py-6 mx-auto mt-5 bg-white rounded-xl border-2 dark:border dark:bg-neutral-900 dark:border-gray-600">
                 <div className="flex items-center justify-between mt-3">
                     <span className="text-sm font-light text-gray-600 dark:text-gray-400">2021-2022</span> 
-                    <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">Python</a>
+                    <a className="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-200 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500">.Net Core</a>
                 </div> 
                 <div className="mt-2">
                     <p>
                         E1 Framework
                     </p>
                     <p className="mt-2 text-gray-600 dark:text-gray-300">
-                        
+                        As part of our current company initiative to change IT processes, we have developed an integrated application 
+                        framework that spans from backend to frontend. The aim of this framework is to standardize coding practices 
+                        and reduce the time needed for application development. My role in this project involves implementing the 
+                        service-repository pattern using dotnet core, which includes creating standard pagination API, managing 
+                        CRUD operations, and implementing API logging.
                     </p>
                 </div> 
             </div>

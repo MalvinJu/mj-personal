@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from '../components/navbar'
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,7 @@ export default function RootLayout({
         <div className="text-[25vmin] bold font-serif font-black fixed bottom-10 -left-10 text-neutral-100 dark:text-neutral-950 z-[-1]">
           It's a great day
         </div>
+        <Analytics />
       </body>
     </html>
   )
